@@ -84,14 +84,7 @@ for i in range(2, 9):
         outcome = round(quantity * current_price, 2)
         outcome_diff = round(outcome - invested, 2)
         
-        # Print profit or loss statement
-        if outcome_diff > 0:
-            print(f"PROFIT ~ {stock_name} ~ {quantity} shares ~ ${invested:.2f} ~ ${outcome:.2f} ~ ${outcome_diff:.2f}")
-        else:
-            print(f"LOSS ~ {stock_name} ~ {quantity} shares ~ ${invested:.2f} ~ ${outcome:.2f} ~ $({-outcome_diff:.2f})")
-    
     except Exception as e:
         print(f"Error processing row {i}: {e}")
 
-print()
 backup_excel_file(excel_file_path, backup_directory)
