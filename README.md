@@ -65,17 +65,9 @@ The script performs the following steps:
 
 4. **Calculate Profit or Loss**:
     - Computes the profit or loss for each stock based on the current price and the buying price.
-    - Prints a summary of profit or loss for each stock.
 
 5. **Create Backup**:
     - Creates a backup of the `User.xlsx` file in the `Records` directory with a timestamp.
-
-### Example Output
-
-```
-PROFIT ~ Apple Inc. ~ 10 shares ~ $1200.00 ~ $1300.00 ~ $100.00
-LOSS ~ Tesla Inc. ~ 5 shares ~ $3500.00 ~ $3200.00 ~ $(300.00)
-```
 
 ## Contributing
 
